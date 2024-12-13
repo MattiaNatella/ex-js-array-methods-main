@@ -10,7 +10,7 @@ const students = [
     name: 'Mario Banfi',
     age: 34,
     class: '4A'
-  },
+  }, 
   {
     id: 3,
     name: 'Luigi Banzi',

@@ -1,7 +1,7 @@
 const nums = [2, 8, 4, 7, 12, 87];
 
 // Crea un array a partire dall'array nums, che abbia solo i numeri pari
-const numsPari = nums.filter(numero => numero % 2 === 0)
+const numsPari = nums.filter(numero => !(numero % 2))
 console.log(numsPari);
 
 // Risultato: [2, 8, 4, 12]
